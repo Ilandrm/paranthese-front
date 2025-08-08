@@ -1,0 +1,23 @@
+{
+  "name": "paranthese-front",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "npm run generate && gh-pages -d .output/public"
+  },
+  "dependencies": {
+    "nuxt": "^3.16.2",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@heroicons/vue": "^2.1.5",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "gh-pages": "^6.3.0"
+  }
+}
